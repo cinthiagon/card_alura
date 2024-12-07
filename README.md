@@ -23,6 +23,8 @@ Bem-vindo ao repositório do **DevBoard Alura**, um projeto desenvolvido no âmb
    ```bash
    git clone https://github.com/cinthiagon/devboard-alura.git
 
+2. Alternativamente, acesse: https://card-alura.vercel.app/index.html
+
 ## 🎯 Objetivo do Projeto
 Este projeto visa aplicar conceitos aprendidos no Programa Alura Include para desenvolver interfaces modernas e acessíveis, promovendo boas práticas em desenvolvimento front-end.
 Além disso, busca incentivar a inclusão de diferentes perfis profissionais na área de tecnologia, destacando o impacto do aprendizado colaborativo.
