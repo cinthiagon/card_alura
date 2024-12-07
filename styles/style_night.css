@@ -27,7 +27,7 @@ body{
     display: flex;
     position: relative;
     width: 90%;
-    max-width: 1200px;
+    max-width: fit-content;
     margin: 0 auto;
     padding: 1%;
     justify-content: space-between;
