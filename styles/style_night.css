@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --cor-primaria: #7AB2D3;
+    --cor-secundaria: #4A628A;
+    --cor-terciaria: #F1F0E8;
+    --cor-hover: #B3C8CF;
+
+    --fonte-primaria: 'Krona One', sans-serif;
+    --fonte-secundaria: 'Montserrat', sans-serif;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body{
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+}
+
+
+.cabecalho {
+    display: flex;
+    position: relative;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1%;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid var(--cor-secundaria);
+}
+
+
+.cabecalho__menu{ 
+    display: flex;
+    gap: 170px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.logotipo{
+    display: flex;
+    width: 180%;
+    height: 50px;
+    object-fit: contain; 
+    border-radius: 5px;
+}
+
+.logotipo:hover{
+    background-color: var(--cor-primaria);
+    border-radius: 5px;
+    color: var(--cor-hover);
+}
+
+.cabecalho__menu__link {
+    text-decoration: none;
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-secundaria);
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.cabecalho__menu__link:hover{
+    background-color: var(--cor-primaria);
+    border-radius: 5px;
+    color: var(--cor-hover);
+}
+
+.cabecalho__menu__icones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor-primaria);
+    gap: 25%;
+}
+
+.cabecalho__menu__icones-noite{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor-terciaria);
+    border-radius: 50%;
+    padding: 5px;
+    width: 40px;
+    height: 25px;
+    position: relative;
+}
+
+.cabecalho__menu__icones-dia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor-terciaria);
+    border-radius: 50%;
+    padding: 5px;
+    width: 40px;
+    height: 25px;
+    position: relative;
+}
+
+.cabecalho__menu__icones-dia:hover {
+    background-color: var(--cor-hover);
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.cabecalho__menu__icones-noite:hover{
+    background-color: var(--cor-hover);
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.display__cartao{
+    display: flex;
+    padding: 3%;
+}
+
+.cartao__cinthia-goncalez{
+    background-image:url('assets/imagem-de-fundo.svg');
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    width: 360px;
+    height: 520px;
+    border: 2px solid var(--cor-secundaria);
+    margin: auto;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+
+.foto-perfil{
+    position: relative;
+    width: 50%;
+    border-radius: 50%;
+    padding: 8%;
+}
+
+.nome{
+    font-family: var(--fonte-primaria);
+    color: var(--cor-secundaria);
+}
+
+.formacao{
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-terciaria)
+}
+
+.paragrafo-apresentacao{
+    font-family: var(--fonte-primaria);
+    font-size: 80%;
+    color: var(--cor-secundaria);
+    text-align: center;
+}
+
+@keyframes animacao-emoji {
+    from {font-size: 18px}
+    to {font-size: 20px}
+}
+
+.emoji{
+    font-size: 18px;
+    animation: animacao-emoji 1s 1s infinite;
+}
+
+.link-alura{
+    font-family: var(--fonte-primaria);
+    font-size: 90%;
+    color: var(--cor-terciaria);
+    text-align: center;
+    text-decoration: none;
+}
+
+.link-alura:hover{
+    font-family: var(--fonte-primaria);
+    color: var(--cor-hover);
+    text-align: center;
+    text-decoration: none;
+}
+
+.contatos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25%;
+    padding: 10%;
+}
+
+.linkedin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 52px;
+    height: 50px;
+    position: relative;
+}
+
+
+
+.github{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    width: 40px;
+    height: 38px;
+    position: relative;
+}
