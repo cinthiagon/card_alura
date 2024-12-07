@@ -19,7 +19,7 @@ Bem-vindo ao repositório do **DevBoard Alura**, um projeto desenvolvido no âmb
 - `assets/`: Contém imagens e ícones utilizados no projeto.
 
 ## 🚀 Como Visualizar
-1. Clone este repositório:
+1. Clone este repositório e abra o arquivo index.html em qualquer navegador (ou por meio da extensão liveserver):
    ```bash
    git clone https://github.com/cinthiagon/devboard-alura.git
 
