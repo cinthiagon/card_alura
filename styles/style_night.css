@@ -33,6 +33,7 @@ body{
     justify-content: space-between;
     align-items: center;
     border-bottom: 3px solid var(--cor-secundaria);
+    flex-wrap: wrap;
 }
 
 
@@ -41,6 +42,19 @@ body{
     gap: 170px;
     align-items: center;
     justify-content: space-between;
+}
+
+/* Estilo responsivo para telas menores */
+@media (max-width: 768px) {
+    .cabecalho {
+        flex-direction: column; /* Empilha os elementos verticalmente */
+        align-items: center; /* Centraliza os itens no eixo principal */
+    }
+
+    .cabecalho__menu {
+        flex-direction: column; /* Empilha os itens do menu verticalmente */
+        gap: 20px; /* Diminui o espaçamento entre itens */
+    }
 }
 
 
